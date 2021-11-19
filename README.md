@@ -45,69 +45,21 @@ Com base nisso, portanto, o presente trabalho tem o objetivo de apresentar uma m
 
 Em vista da natureza sequencial do objeto de estudo deste projeto, foi construída uma RNN. Esta rede neural recorrente se caracteriza por ser muito utilizada para processar dados sequenciais, devido à sua alta capacidade de flexibilidade de conexão em suas arquiteturas.
 
-
-
-
+![image](https://user-images.githubusercontent.com/11425838/142679720-b0c28754-aa2e-43c7-bca4-9826213a6d4d.png)
 
 Visando uma maior eficiência na modelagem, a LSTM foi adotada junto com o otimizador Adam e o loss R².
 
-
-
-
+![image](https://user-images.githubusercontent.com/11425838/142679757-9c6ae4b0-e5a3-4e2c-8e3b-fffe329eb2da.png)
 
 Na etapa de Treinamento, dividimos o processo em 5 épocas e como resultado foi possível observar o seguinte:
 
 Etanol Hidratado:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![image](https://user-images.githubusercontent.com/11425838/142679793-54b16e31-7d63-414a-91a4-1197e905eb9a.png)
 
 Etanol Anidro:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![image](https://user-images.githubusercontent.com/11425838/142679868-336e36e4-3083-40fa-a77c-4e008d9e6aa7.png)
 
 ### 3. Resultados
 
@@ -120,19 +72,9 @@ MAPE:  10.569350179064738 %
 MSE:  0.015494116126401128
 RMSE:  0.12447536353190991
 
+![image](https://user-images.githubusercontent.com/11425838/142679909-35dcd430-5569-4c8d-b619-d8a447e9c970.png)
 
-
-
-
-
-
-
-
-
-
-
-
-
+![image](https://user-images.githubusercontent.com/11425838/142679917-31c408c0-29f1-4cb8-becd-1505c03ae6e8.png)
 
 Etanol Anidro:
 
@@ -143,22 +85,11 @@ MAPE:  180.77732810217734 %
 MSE:  20.707052378852655
 RMSE:  4.550500233914141
 
+![image](https://user-images.githubusercontent.com/11425838/142679930-0609a975-d07b-426c-80f1-039db2654d85.png)
 
-
-
-
-
-
-
-
-
-
-
-
-
+![image](https://user-images.githubusercontent.com/11425838/142679942-58cf82ef-e2a6-41e6-a193-943a94c22c8f.png)
 
 ### 4. Conclusões
-
 
 Com base nos resultados levantados ao longo da aplicação da modelagem LSTM, foi possível observar que o mercado de bioenergia possui um grande desafio na previsão de indicadores dos preços médios mensais, dada à volatilidade do mercado e no caso do etanol, a diferença de aplicação de cada tipo do biocombustível.
 
