@@ -1,36 +1,15 @@
-# ethanolbimaster
-Projeto Final - Redes Recorrentes
+# Título do Trabalho
 
+#### Aluno: [Mariana Gonçalves Almeida Pinto](https://github.com/marianagoncalvesap)
+#### Orientadora: [Manoela Kohler](https://github.com/manoelakohler).
 
+---
 
+Trabalho apresentado ao curso [BI MASTER](https://ica.puc-rio.ai/bi-master) como pré-requisito para conclusão de curso e obtenção de crédito na disciplina "Projetos de Sistemas Inteligentes de Apoio à Decisão".
 
+---
 
-
-
-
-Orientadora
-Aluna
-Matricula
-E-mail
-Manoela Kohler
-Mariana Gonçalves Almeida Pinto
-192.110.208
-marianagoncalvesap@gmail.com
-
-
-
-Sumário 
-
-
-Resumo	3
-Abstract	3
-Introdução	3
-Modelagem	4
-Resultados                                                                               5
-Conclusão                                                                                6
-Arquivos	7
-
-Resumo
+### Resumo
 
 Em vista das perspectivas de desenvolvimento do mercado bioenergético, hoje, há uma necessidade latente de criação de métodos de acompanhamento e previsão desse mercado.
 
@@ -40,8 +19,7 @@ Para o desenvolvimento deste estudo,  foram extraídas do site do CEPEA bases co
 
 Como resultados desse estudo, foi possível observar que a assertividade do modelo é elevada quando aplicada para prever os indicadores de preços médios mensais de etanol hidratado, porém tal resultado não é tão significativo na previsão para o etanol anidro. Esse panorama de resultados pode ser exemplificado pelo R², que no primeiro biocombustível foi 0.946275837398085 e no segundo 0.7309975549736121.
 
-
-Abstract
+### Abstract
 
 From the perspectives of development of the bioenergy market, today, there is a strong need to create methods for monitoring and forecasting this market.
 
@@ -51,10 +29,7 @@ For the development of this study, databases with monthly indicators of fuel hyd
 
 As a result of this study, it was possible to observe that the model's assertiveness is high when applied to predict the monthly average price indicators for hydrous ethanol, however such result is not as significant in the prediction for anhydrous ethanol. This panorama of results can be exemplified by the R², which in the first biofuel was 0.946275837398085 and in the second 0.7309975549736121.
 
-
-
-
-Introdução
+### 1. Introdução
 
 Em vista das perspectivas de crescimento do mercado de bioenergia, atualmente, há uma necessidade latente de criação de métodos de acompanhamento e previsão desse mercado.
 
@@ -66,20 +41,12 @@ Ao longo do desenvolvimento deste trabalho, em vista de que se trata de uma ques
 
 Com base nisso, portanto, o presente trabalho tem o objetivo de apresentar uma modelagem de previsão de série temporal de indicadores de preços dos biocombustíveis mencionados anteriormente para facilitar o acompanhamento, a projeção dos valores e a tomada de decisão dentro de empresas que atuam nesse mercado.
 
-
-
-
-
-
-
-
-
-
-
-
-Modelagem
+### 2. Modelagem
 
 Em vista da natureza sequencial do objeto de estudo deste projeto, foi construída uma RNN. Esta rede neural recorrente se caracteriza por ser muito utilizada para processar dados sequenciais, devido à sua alta capacidade de flexibilidade de conexão em suas arquiteturas.
+
+
+
 
 
 Visando uma maior eficiência na modelagem, a LSTM foi adotada junto com o otimizador Adam e o loss R².
@@ -142,7 +109,7 @@ Etanol Anidro:
 
 
 
-Resultados
+### 3. Resultados
 
 Etanol Hidratado:
 
@@ -190,7 +157,7 @@ RMSE:  4.550500233914141
 
 
 
-Conclusão
+### 4. Conclusões
 
 
 Com base nos resultados levantados ao longo da aplicação da modelagem LSTM, foi possível observar que o mercado de bioenergia possui um grande desafio na previsão de indicadores dos preços médios mensais, dada à volatilidade do mercado e no caso do etanol, a diferença de aplicação de cada tipo do biocombustível.
@@ -201,10 +168,10 @@ Porém, para a base de dados de etanol anidro, tal modelagem não apresentou tal
 
 A partir disso, portanto, é possível concluir que para prever indicadores de preços a LSTM é uma rede neural efetiva e assertiva, porém que para um estudo mais amplo e eficaz é necessário aprofundar a análise por meio
 
-.
+---
 
+Matrícula: 192.110.208
 
+Pontifícia Universidade Católica do Rio de Janeiro
 
-
-
-
+Curso de Pós Graduação *Business Intelligence Master*
