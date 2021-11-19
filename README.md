@@ -1,4 +1,4 @@
-# Título do Trabalho
+# LSTM para Previsão de Série de Preços de Etanol
 
 #### Aluno: [Mariana Gonçalves Almeida Pinto](https://github.com/marianagoncalvesap)
 #### Orientadora: [Manoela Kohler](https://github.com/manoelakohler).
